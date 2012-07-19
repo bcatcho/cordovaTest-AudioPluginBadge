@@ -24,7 +24,7 @@
 		</dict>
 	</dict>
 	<key>CFBundleIdentifier</key>
-	<string>com.catchco.cordovaTest_AudioPluginBadge</string>
+	<string>com.catchco.cordovaTestAudioPluginBadge</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>

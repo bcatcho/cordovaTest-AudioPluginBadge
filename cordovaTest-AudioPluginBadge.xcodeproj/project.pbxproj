@@ -39,6 +39,8 @@
 		CC7CBDF815B7B81F00D510C4 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC7CBDF715B7B81F00D510C4 /* MainViewController.xib */; };
 		CC7CBE0315B7B8B800D510C4 /* www in Resources */ = {isa = PBXBuildFile; fileRef = CC7CBE0215B7B8B800D510C4 /* www */; };
 		CC7CBE0F15B7C4AB00D510C4 /* CDVDebugWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = CC7CBE0D15B7C4AB00D510C4 /* CDVDebugWebView.m */; };
+		CC7CBE1515B7D10400D510C4 /* Badge.m in Sources */ = {isa = PBXBuildFile; fileRef = CC7CBE1215B7D10400D510C4 /* Badge.m */; };
+		CC7CBE1615B7D10400D510C4 /* README in Resources */ = {isa = PBXBuildFile; fileRef = CC7CBE1315B7D10400D510C4 /* README */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -83,6 +85,9 @@
 		CC7CBE0C15B7C4AB00D510C4 /* CDVDebugWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDVDebugWebView.h; sourceTree = "<group>"; };
 		CC7CBE0D15B7C4AB00D510C4 /* CDVDebugWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDVDebugWebView.m; sourceTree = "<group>"; };
 		CC7CBE0E15B7C4AB00D510C4 /* WebScriptDebugDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebScriptDebugDelegate.h; sourceTree = "<group>"; };
+		CC7CBE1015B7D10400D510C4 /* Badge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Badge.h; sourceTree = "<group>"; };
+		CC7CBE1215B7D10400D510C4 /* Badge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Badge.m; sourceTree = "<group>"; };
+		CC7CBE1315B7D10400D510C4 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -263,6 +268,9 @@
 		CC7CBDF915B7B81F00D510C4 /* Plugins */ = {
 			isa = PBXGroup;
 			children = (
+				CC7CBE1015B7D10400D510C4 /* Badge.h */,
+				CC7CBE1215B7D10400D510C4 /* Badge.m */,
+				CC7CBE1315B7D10400D510C4 /* README */,
 				CC7CBDFA15B7B81F00D510C4 /* README */,
 			);
 			name = Plugins;
@@ -338,6 +346,7 @@
 				CC7CBDEF15B7B81F00D510C4 /* Cordova.plist in Resources */,
 				CC7CBDF815B7B81F00D510C4 /* MainViewController.xib in Resources */,
 				CC7CBE0315B7B8B800D510C4 /* www in Resources */,
+				CC7CBE1615B7D10400D510C4 /* README in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -368,6 +377,7 @@
 				CC7CBDF315B7B81F00D510C4 /* AppDelegate.m in Sources */,
 				CC7CBDF615B7B81F00D510C4 /* MainViewController.m in Sources */,
 				CC7CBE0F15B7C4AB00D510C4 /* CDVDebugWebView.m in Sources */,
+				CC7CBE1515B7D10400D510C4 /* Badge.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
