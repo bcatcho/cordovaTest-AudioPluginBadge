@@ -38,6 +38,7 @@
 		CC7CBDF615B7B81F00D510C4 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC7CBDF515B7B81F00D510C4 /* MainViewController.m */; };
 		CC7CBDF815B7B81F00D510C4 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC7CBDF715B7B81F00D510C4 /* MainViewController.xib */; };
 		CC7CBE0315B7B8B800D510C4 /* www in Resources */ = {isa = PBXBuildFile; fileRef = CC7CBE0215B7B8B800D510C4 /* www */; };
+		CC7CBE0F15B7C4AB00D510C4 /* CDVDebugWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = CC7CBE0D15B7C4AB00D510C4 /* CDVDebugWebView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -79,6 +80,9 @@
 		CC7CBDFA15B7B81F00D510C4 /* README */ = {isa = PBXFileReference; lastKnownFileType = text; name = README; path = Plugins/README; sourceTree = "<group>"; };
 		CC7CBDFB15B7B81F00D510C4 /* verify.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = verify.sh; sourceTree = "<group>"; };
 		CC7CBE0215B7B8B800D510C4 /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = "<group>"; };
+		CC7CBE0C15B7C4AB00D510C4 /* CDVDebugWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDVDebugWebView.h; sourceTree = "<group>"; };
+		CC7CBE0D15B7C4AB00D510C4 /* CDVDebugWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDVDebugWebView.m; sourceTree = "<group>"; };
+		CC7CBE0E15B7C4AB00D510C4 /* WebScriptDebugDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebScriptDebugDelegate.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -245,6 +249,9 @@
 		CC7CBDF015B7B81F00D510C4 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				CC7CBE0C15B7C4AB00D510C4 /* CDVDebugWebView.h */,
+				CC7CBE0D15B7C4AB00D510C4 /* CDVDebugWebView.m */,
+				CC7CBE0E15B7C4AB00D510C4 /* WebScriptDebugDelegate.h */,
 				CC7CBDF115B7B81F00D510C4 /* AppDelegate.h */,
 				CC7CBDF215B7B81F00D510C4 /* AppDelegate.m */,
 				CC7CBDF415B7B81F00D510C4 /* MainViewController.h */,
@@ -360,6 +367,7 @@
 				CC7CBDCB15B7B81E00D510C4 /* main.m in Sources */,
 				CC7CBDF315B7B81F00D510C4 /* AppDelegate.m in Sources */,
 				CC7CBDF615B7B81F00D510C4 /* MainViewController.m in Sources */,
+				CC7CBE0F15B7C4AB00D510C4 /* CDVDebugWebView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,7 +446,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -458,7 +466,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};

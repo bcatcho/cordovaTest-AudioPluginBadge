@@ -24,8 +24,9 @@
 //  Created by Brandon Catcho on 7/18/12.
 //  Copyright __MyCompanyName__ 2012. All rights reserved.
 //
-
+#import "CDVDebugWebView.h"
 #import "MainViewController.h"
+
 
 @implementation MainViewController
 
@@ -68,12 +69,12 @@
 }
 
 /* Comment out the block below to over-ride */
-/*
+
 - (CDVCordovaView*) newCordovaViewWithFrame:(CGRect)bounds
 {
     return[super newCordovaViewWithFrame:bounds];
 }
-*/
+
 
 /* Comment out the block below to over-ride */
 /*
