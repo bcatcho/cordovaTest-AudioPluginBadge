@@ -17,14 +17,14 @@ Checkout the guides in the links below
 
 # Useful links
 
--  **logging js errors:** [https://github.com/apache/incubator-cordova-ios/tree/master/guides]()
+-  **logging js errors:** [https://github.com/apache/incubator-cordova-ios/blob/master/guides/Cordova JavaScript ExceptionLogging.md](https://github.com/apache/incubator-cordova-ios/blob/master/guides/Cordova%20JavaScript%20Exception%20Logging.md)
 
--  other iOS guides: [https://github.com/apache/incubator-cordova-ios/tree/master/guides]()
+-  other iOS guides: [https://github.com/apache/incubator-cordova-ios/tree/master/guides](https://github.com/apache/incubator-cordova-ios/tree/master/guides)
 
--  audio recording: [http://ramkulkarni.com/blog/using-phonegap-media-apis/]()
+-  audio recording: [http://ramkulkarni.com/blog/using-phonegap-media-apis/](http://ramkulkarni.com/blog/using-phonegap-media-apis/)
 
--  plugins: [https://github.com/phonegap/phonegap-plugins]()
+-  plugins: [https://github.com/phonegap/phonegap-plugins](https://github.com/phonegap/phonegap-plugins)
 
--  cordova getting started docs: [http://docs.phonegap.com/en/1.9.0/guide_getting-started_index.md.html]()
+-  cordova getting started docs: [http://docs.phonegap.com/en/1.9.0/guide_getting-started_index.md.html](http://docs.phonegap.com/en/1.9.0/guide_getting-started_index.md.html)
 
 
