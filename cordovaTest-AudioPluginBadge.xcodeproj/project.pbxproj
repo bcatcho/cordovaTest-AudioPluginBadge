@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		032E6EE715B999BB00980722 /* Cordova.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 032E6EE615B999BB00980722 /* Cordova.framework */; };
 		CC7CBDAB15B7B81E00D510C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC7CBDAA15B7B81E00D510C4 /* Foundation.framework */; };
 		CC7CBDAD15B7B81E00D510C4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC7CBDAC15B7B81E00D510C4 /* UIKit.framework */; };
 		CC7CBDAF15B7B81E00D510C4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC7CBDAE15B7B81E00D510C4 /* CoreGraphics.framework */; };
@@ -44,6 +45,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		032E6EE615B999BB00980722 /* Cordova.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Cordova.framework; sourceTree = "<group>"; };
 		CC7CBDA615B7B81E00D510C4 /* cordovaTest-AudioPluginBadge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "cordovaTest-AudioPluginBadge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC7CBDAA15B7B81E00D510C4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CC7CBDAC15B7B81E00D510C4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -109,6 +111,7 @@
 				CC7CBDC115B7B81E00D510C4 /* MobileCoreServices.framework in Frameworks */,
 				CC7CBDC315B7B81E00D510C4 /* CoreMedia.framework in Frameworks */,
 				CC7CBDCE15B7B81E00D510C4 /* Cordova.framework in Frameworks */,
+				032E6EE715B999BB00980722 /* Cordova.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,6 +146,7 @@
 		CC7CBDA915B7B81E00D510C4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				032E6EE615B999BB00980722 /* Cordova.framework */,
 				CC7CBDAA15B7B81E00D510C4 /* Foundation.framework */,
 				CC7CBDAC15B7B81E00D510C4 /* UIKit.framework */,
 				CC7CBDAE15B7B81E00D510C4 /* CoreGraphics.framework */,
@@ -487,7 +491,10 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				COPY_PHASE_STRIP = NO;
-				FRAMEWORK_SEARCH_PATHS = /Users/Shared/Cordova/Frameworks;
+				FRAMEWORK_SEARCH_PATHS = (
+					/Users/Shared/Cordova/Frameworks,
+					"\"$(SRCROOT)\"",
+				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "cordovaTest-AudioPluginBadge/cordovaTest-AudioPluginBadge-Prefix.pch";
@@ -517,7 +524,10 @@
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				FRAMEWORK_SEARCH_PATHS = /Users/Shared/Cordova/Frameworks;
+				FRAMEWORK_SEARCH_PATHS = (
+					/Users/Shared/Cordova/Frameworks,
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "cordovaTest-AudioPluginBadge/cordovaTest-AudioPluginBadge-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -560,6 +570,7 @@
 				CC7CBE0015B7B81F00D510C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
